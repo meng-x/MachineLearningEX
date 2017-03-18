@@ -1,0 +1,1 @@
+% volume datastep = 0.05;[X,Y,Z] = meshgrid(-3:step:3, -3:step:3, -3:step:3);F = (-(X.^2).*(Z.^3)-(9/80).*(Y.^2).*(Z.^3))+((X.^2)+(9/4).*(Y.^2)+(Z.^2)-1).^3;% wireframepatch(isosurface(X,Y,Z,F,0), 'FaceColor','w', 'EdgeColor','r')daspect([1 1 1])view(3)axis tight equalset(gcf, 'Color','w')
