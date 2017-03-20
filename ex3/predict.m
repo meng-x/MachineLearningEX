@@ -29,7 +29,7 @@ outputLayer = sigmoid(Theta2 * hiddenLayer);
 
 [_, p] = max(outputLayer);
 
-
+p = p';
 
 % =========================================================================
 
